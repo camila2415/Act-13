@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Gastos - Iniciar Sesión</title>
+    <!-- Asegúrate de que esta ruta coincida exactamente con la ubicación de tu CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Botón Modo Día/Noche -->
+    <div class="header-tools">
+        <button id="btnTema" class="btn-theme">Modo Día / Noche</button>
+    </div>
+
+    <!-- Título Principal -->
+    <h1 class="titulo-principal">Sistema de Gestión de Gastos</h1>
+
+    <!-- Tarjeta del Formulario -->
+    <main class="login-card">
+        <h2>Iniciar Sesión</h2>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <button type="submit" class="btn-ingresar">Ingresar</button>
+        </form>
+
+        <!-- Enlaces -->
+        <div class="links-container">
+            <a href="registro.html" class="link">Crear una cuenta</a>
+            <a href="recuperar.html" class="link">¿Olvidaste tu contraseña?</a>
+        </div>
+    </main>
+
+    <script src="js/koo.js"></script>
+</body>
+</html>
